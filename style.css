@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name - Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Your Name</h1>
+      <p>Frontend Developer | JavaScript | React | CSS</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul class="container">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>I am a passionate web developer with experience in creating responsive, user-friendly websites using modern technologies like HTML, CSS, JavaScript, and React.</p>
+  </section>
+
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project One</h3>
+      <p>Description of your project. What it does, tech stack, etc.</p>
+      <a href="https://github.com/yourusername/project-one" target="_blank">GitHub Repo</a> |
+      <a href="https://yourusername.github.io/project-one/" target="_blank">Live Demo</a>
+    </div>
+    <div class="project">
+      <h3>Project Two</h3>
+      <p>Another project description with tech and purpose.</p>
+      <a href="https://github.com/yourusername/project-two" target="_blank">GitHub Repo</a> |
+      <a href="https://yourusername.github.io/project-two/" target="_blank">Live Demo</a>
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
